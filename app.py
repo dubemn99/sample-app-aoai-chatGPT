@@ -30,7 +30,7 @@ MINIMUM_SUPPORTED_AZURE_OPENAI_PREVIEW_API_VERSION="2024-02-15-preview"
 # UI configuration (optional)
 UI_TITLE = os.environ.get("UI_TITLE") or "DIVA -Document Insights Virtual Advisor (Lab Team B)"
 UI_LOGO = os.environ.get("UI_LOGO")
-UI_CHAT_LOGO = C:/Users/dnwakalor/Downloads/5872028.svg
+UI_CHAT_LOGO = os.path.join(r"C:/Users/dnwakalor/Downloads/5872028.svg")
 UI_CHAT_TITLE = os.environ.get("UI_CHAT_TITLE") or "SOW CHATBOT"
 UI_CHAT_DESCRIPTION = os.environ.get("UI_CHAT_DESCRIPTION") or "I am configured to answer questions on your SOW"
 UI_FAVICON = os.environ.get("UI_FAVICON") or "/favicon.ico"
